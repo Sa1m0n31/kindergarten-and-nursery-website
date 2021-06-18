@@ -1,0 +1,661 @@
+@media(max-width: 1700px) {
+    .container,
+    .priceListContainer, .offerItem,
+    .galeriaContainer,
+    .kontaktMain
+    {
+        width: 90%;
+    }
+
+    .topMenu {
+        padding: 20px 5%;
+    }
+
+    .planDnia__inner {
+        grid-template-columns: 15% 65%;
+    }
+}
+
+@media(max-width: 1600px) {
+    .topMenu {
+        height: 150px;
+    }
+
+    .topMenu__dropdown {
+        bottom: calc(-81% - 30px);
+    }
+
+    .topMenu__dropdown--three {
+        bottom: calc(-237% - 30px);
+    }
+
+    .topMenu__item {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .topMenu__logoImg {
+        width: 200px;
+        height: auto;
+    }
+
+    .pageInFooterContainer {
+        width: 90%;
+    }
+}
+
+@media(max-width: 1500px) {
+    .afterLanding__text {
+        padding: 50px 100px;
+    }
+
+    .kadraPedagogiczna__img {
+        width: 420px;
+        height: 420px;
+    }
+
+    .kontakt {
+        padding: 120px 50px;
+    }
+
+    .landingContent {
+        top: 50%;
+    }
+
+    .landingHeader {
+        font-size: 32px;
+    }
+
+    .landingBtn a {
+        font-size: 17px;
+        white-space: nowrap;
+    }
+
+    .decoration {
+        display: none;
+    }
+}
+
+@media(max-width: 1300px) {
+    .afterLanding__header {
+        font-size: 21px;
+    }
+
+    .afterLanding__text, .mocneStrony__listItem {
+        font-size: 15px;
+    }
+
+    .mocneStrony__header {
+        font-size: 60px;
+    }
+
+    .strefaRodzicaInner {
+        width: 90%;
+    }
+
+    .strefaRodzica__item::after {
+        display: none;
+    }
+}
+
+@media(max-width: 1200px) {
+    .pageInFooterContainer {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .topMenu__item {
+        padding: 0 !important;
+    }
+
+    .topMenu__item a {
+        padding: 7px 0 !important;
+    }
+
+    .kontakt {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mocneStrony {
+        flex-direction: column;
+    }
+
+    .mocneStrony__header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .mocneStrony__description {
+        width: 100%;
+    }
+
+    .mocneStrony__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .mocneStrony__listItem {
+        width: 45%;
+    }
+
+    .mocneStrony__imgWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .topMenu__menu, .topMenu__item__arrow {
+        display: none;
+    }
+
+    .topMenu__dropdown {
+        display: none !important;
+    }
+
+    .below1200 {
+        display: block;
+    }
+
+    .hamburgerMenu {
+        display: flex;
+        width: 40px;
+        height: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+        background: transparent;
+    }
+
+    .bb--none {
+        border-bottom: none !important;
+    }
+
+    .bt--none {
+        border-top: none !important;
+    }
+
+    .hamburgerLine {
+        width: 100%;
+        height: 2px;
+        background: #4B4B4B;
+    }
+
+    .topMenu__item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menuMobile {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: #fff;
+    }
+
+    .menuMobile > * {
+        opacity: 0;
+    }
+
+    .menuMobile .topMenu__menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50vh;
+        transform: translateY(-50%);
+    }
+
+    .menuMobile .topMenu__item {
+        text-align: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .menuMobile .topMenu__item:first-of-type {
+        border-top: 5px solid #E3CECD;
+    }
+
+    .menuMobile__closeBtn {
+        background: transparent;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .menuMobile__closeBtn__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .kadraPedagogiczna {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .kadraPedagogiczna__right {
+        display: none;
+    }
+
+    .kontakt {
+        padding: 50px 0;
+    }
+
+    .kontakt__item__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .kadra__item {
+        width: 45%;
+    }
+
+    .priceListItem__header,
+    .priceListExtraText,
+    .offerName
+    {
+        font-size: 18px;
+    }
+
+    .priceListExtraText {
+        width: 80%;
+    }
+
+    .priceListItem__small, .offerHint {
+        font-size: 13px;
+    }
+
+    .offerItem__text__p {
+        font-size: 14px;
+    }
+
+    .planDnia__inner {
+        grid-template-columns: 20% 70%;
+    }
+
+    .landingContent {
+        top: 40%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .galeriaWrapper::after {
+        background-size: 30px 30px;
+    }
+
+    .jadlospis__day__partContainer {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .jadlospis__day__part {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .stwarzamyWarunki__item::after {
+        top: 50px;
+    }
+
+    .stwarzamyWarunki__imgWrapper {
+        width: 100px;
+        height: 100px;
+    }
+
+    .stwarzamyWarunki__text, .dlaczegoMy__listItem,
+    .kadraPedagogiczna__paragraph,
+    .ordinaryTextHeader,
+    .zapisyInner__header,
+    .formHeader
+    {
+        font-size: 14px;
+    }
+
+    .dlaczegoMy__section__header,
+    .kadraPedagogiczna__header
+    {
+        font-size: 25px;
+    }
+
+    .zapisyInner, .kuchniaInner {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .kuchniaInner {
+        padding: 20px 40px;
+    }
+
+    .ordinaryTextHeader {
+        padding: 0 20px;
+    }
+
+    .kadraInner {
+        width: 90%;
+    }
+
+    .strefaRodzica__header {
+        font-size: 18px;
+    }
+
+    .strefaRodzica__imgWrapper {
+        width: 140px;
+        height: 140px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .inFooter__quote {
+        font-size: 18px;
+    }
+
+    .kontakt__form label, .formMsg {
+        width: 80%;
+    }
+
+    .planDnia__inner {
+        grid-template-columns: 25% 70%;
+    }
+
+    .planDnia__hours {
+        font-size: 16px;
+    }
+
+    .planDnia__text {
+        font-size: 14px;
+    }
+
+    .landing {
+        margin-bottom: 400px;
+    }
+
+    .landingContent {
+        width: 80vw;
+        top: 150%;
+    }
+
+    .landingHeader {
+        color: #5A5A5A;
+    }
+}
+
+@media(max-width: 800px) {
+    .mocneStrony__listItem {
+        width: 100%;
+    }
+
+    .stwarzamyWarunki__inner {
+        flex-direction: column;
+    }
+
+    .stwarzamyWarunki__item {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .stwarzamyWarunki__item::after {
+        display: none;
+    }
+
+    .stwarzamyWarunki__imgWrapper {
+        margin-bottom: 15px;
+    }
+
+    .kadraPedagogiczna {
+        margin-bottom: 0;
+    }
+
+    .kontakt {
+        flex-direction: column;
+    }
+
+    .kontakt__item {
+        margin-bottom: 50px;
+    }
+
+    .planDnia__inner {
+        grid-template-columns: 30% 65%;
+        padding: 20px;
+    }
+
+    .landing {
+        margin-bottom: 0;
+    }
+
+    .landingContent {
+        position: relative;
+        margin-top: 150px;
+    }
+
+    .adaptacjaInner {
+        padding: 20px;
+    }
+
+    .adaptacjaInner p, .adaptacjaInner ul li {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 600px) {
+    .afterLanding__text {
+        padding: 50px 20px;
+    }
+
+    .afterLanding {
+        margin-top: 0;
+    }
+
+    .landingHeader {
+        font-size: 24px;
+    }
+
+    .landingBtn a {
+        font-size: 15px;
+    }
+
+    .kadraPedagogiczna__button {
+        margin: auto;
+    }
+
+    .mocneStrony {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mocneStrony__img {
+        width: 80%;
+        height: auto;
+    }
+
+    .dlaczegoMy {
+        padding: 0 20px;
+    }
+
+    .kadraPedagogiczna {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .kadraPedagogiczna * {
+        text-align: center;
+    }
+
+    .kadraPedagogiczna__left {
+        margin-right: 0;
+    }
+
+    .kadraPedagogiczna__right {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .kadraPedagogiczna__img {
+        width: 300px;
+        height: 300px;
+        transform: none;
+    }
+
+    .kuchnia__header, .inFooter__header {
+        font-size: 18px;
+    }
+
+    .kuchnia__text, .inFooter__text {
+        font-size: 14px;
+    }
+
+    .kadra__item, .strefaRodzica__item {
+        width: 100%;
+    }
+
+    .strefaRodzicaInner {
+        flex-direction: column;
+    }
+
+    .strefaRodzica__item {
+        margin-bottom: 90px;
+    }
+
+    .priceListContainer {
+        padding: 20px;
+    }
+
+    .priceListExtraText {
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .offerItem {
+        padding: 20px;
+    }
+
+    .offerName {
+        font-size: 16px;
+    }
+
+    .galeriaContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeriaWrapper {
+        width: 75%;
+    }
+
+    .footer__menu__item {
+        padding: 0 7px;
+    }
+
+    .footer__menu__item a {
+        font-size: 12px;
+    }
+
+    .inFooter__section:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .kontaktMain__header {
+        font-size: 14px;
+    }
+
+    .kontakt__form label, .formMsg {
+        width: 90%;
+    }
+
+    .kontakt__form {
+        padding: 20px 0;
+    }
+
+    .planDnia__rozkladDnia {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .planDnia__inner {
+        grid-template-columns: 100%;
+    }
+
+    .planDnia__hours {
+        border-right: none;
+    }
+
+    .dlaczegoMy__btn a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .kontaktMain {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+}
+
+@media(max-width: 500px) {
+    .galeriaContainer {
+        margin-top: 30px;
+    }
+
+    .galeriaWrapper {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .galeriaWrapper::after {
+        display: none !important;
+    }
+
+    .afterLanding {
+        margin-bottom: 0;
+    }
+
+    .mocneStrony__header {
+        font-size: 35px;
+    }
+
+    .afterLanding__text, .mocneStrony__listItem {
+        font-size: 14px;
+    }
+
+    .stwarzamyWarunki {
+       padding: 20px;
+    }
+
+    .stwarzamyWarunki__header, .dlaczegoMy__header, .dlaczegoMy__section__header {
+        font-size: 18px;
+    }
+
+    .label--half, .zapisyInner {
+        width: 100%;
+    }
+
+    .purpleHeader {
+        font-size: 18px;
+    }
+
+    .footer__menu {
+        flex-direction: column;
+    }
+
+    .footer__menu__item {
+        padding: 5px 0;
+    }
+
+    .jadlospis__day__list {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 400px) {
+    .kadraPedagogiczna__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .offerHint {
+        display: none;
+    }
+}
