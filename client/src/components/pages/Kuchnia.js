@@ -27,16 +27,6 @@ const Kuchnia = () => {
                     eksperymentów.
                 </p>
 
-                <h3 className="kuchnia__header">
-                    Catering? To nie u nas
-                </h3>
-                <p className="kuchnia__text">
-                    Dobre jedzenie? Z pewnością te świeże, przyrządzone chwilę przed podaniem,​
-                    na miejscu. W trosce o naszych podopiecznych gotujemy we własnej kuchni, z​
-                    żywności, której pochodzenie znamy i z uwzględnieniem wytycznych rodziców​
-                    oraz zdrowych smaków, które kochają dzieci :)
-                </p>
-
                 <img className="kuchnia__img" src={k1} alt="kuchnia" />
 
                 <h3 className="kuchnia__header">
@@ -47,15 +37,6 @@ const Kuchnia = () => {
                     zbilansowane do ich potrzeb i wieku – wszystkie nasze jadłospisy są ustalane​
                     przez dietetyka dziecięcego z dużym doświadczeniem. Nic dziwnego, że nasze​
                     maluchy rosną jak na drożdżach ;)
-                </p>
-
-                <h3 className="kuchnia__header">
-                    Nowoczesne zaplecze
-                </h3>
-                <p className="kuchnia__text">
-                    Co znajdziesz w naszej kuchni? Najnowocześniejszy piec konwekcyjno-parowy,​
-                    który doskonale wpisuje się w nasze pragnienie zdrowego odżywiania dzieci –​
-                    bez smażenia na głębokim tłuszczu czy odgrzewania w mikrofali.
                 </p>
 
                 <h3 className="kuchnia__header">
@@ -80,21 +61,6 @@ const Kuchnia = () => {
                 </p>
 
                 <img className="kuchnia__img" src={k2} alt="kuchnia" />
-
-                <h3 className="kuchnia__header">
-                    Wychodzicie wcześniej? Weźcie na wynos
-                </h3>
-                <p className="kuchnia__text">
-                    Z przedszkola lub żłobka musicie wyjść wcześniej, np. do lekarza? Nie ma​
-                    problemu – możecie wziąć posiłek do siebie do domu. Wydamy go w szczelnym​
-                    opakowaniu, które spokojnie przetrzyma całą trasę. Do tego będzie podgrzane​
-                    do temperatury idealnej do pysznego spożycia! :)​
-                    Mamo, karmisz piersią? Nie przestawaj :)​
-                    Chcesz karmić swoje maleństwo również w żłobku? Nie ma żadnego problemu.​
-                    Wystarczy, że przyniesiesz nam swoje mleko odpowiednio opisane i powiesz o​
-                    tym ciociom, które opiekują się Twoim dzieckiem ;) Twoje dziecko pije jeszcze​
-                    mleko modyfikowane? Również nie widzimy żadnych przeciwskazań!
-                </p>
 
                 <h3 className="kuchnia__header">
                     Pijemy wodę!

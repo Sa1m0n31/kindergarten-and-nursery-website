@@ -3,7 +3,7 @@ const OfertaZlobka = {
     priceList: {
         blocks: [
             {
-                title: 'Wariant podstawowy oraz adaptacja',
+                title: 'Wariant adaptacja',
                 subtitle: 'czesne dzienne do 12:00 ',
                 cost: 0,
                 extraFee1: 8
@@ -17,7 +17,7 @@ const OfertaZlobka = {
             {
                 title: 'Wariant najlepszy',
                 subtitle: 'czesne miesięczne do 10h',
-                cost: 790,
+                cost: 890,
                 extraFee1: 0
             },
             {
